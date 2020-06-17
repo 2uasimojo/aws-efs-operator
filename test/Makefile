@@ -1,0 +1,3 @@
+.PHONY: fsmanage
+fsmanage:
+	go build -o $(TESTDIR)/fsmanage ./pkg/aws/...
